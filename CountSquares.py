@@ -98,6 +98,15 @@ class Board(list):
         pts.append((1.5, 3.5))
         pts.append((2.5, 2.5))
         pts.append((2.5, 3.5))
+        # add the intersections
+        pts.append((1.5, 3))
+        pts.append((1.5, 1))
+        pts.append((2.5, 3))
+        pts.append((2.5, 1))
+        pts.append((2, 3.5))
+        pts.append((2, 2.5))
+        pts.append((2, 1.5))
+        pts.append((2, 0.5))
         for val in pts:
             self.append(Point(*val))
 
